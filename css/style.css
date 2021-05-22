@@ -1,0 +1,144 @@
+/* NavBar */
+/* ---------------------------- */
+.nav-btn {
+  width: 120px;
+  height: 50px;
+  border-radius: 50px !important;
+  background-color: #00ad8b !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.navbar-color {
+  background-color: white;
+  box-shadow: 0 8px 6px -6px rgb(150, 148, 148);
+}
+/* ---------------------------- */
+
+/* Body */
+
+.main-content {
+  height: 640px;
+  margin-top: 20px !important;
+  border-radius: 30px;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(89, 161, 201, 1),
+    rgba(218, 214, 214, 0) 
+  ); */
+  background-color: #59a1c9;
+  color: white;
+  background-image: url("../assets/main-content.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    background-size: cover;
+    background: #59a1c9;
+    /* background-image: linear-gradient(
+      to top,
+      rgba(89, 161, 201, 1),
+      rgba(218, 214, 214, 0.7)
+    ); */
+  }
+}
+
+/* .content-img {
+  background-size: contain;
+  box-shadow: 0 0 8px 8px white inset;
+} */
+
+.content-text {
+  padding: 130px 0px 0px 50px;
+  line-height: 2;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 450px) {
+  .content-text {
+    line-height: 1.5;
+  }
+}
+
+.header {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.description {
+  font-weight: lighter;
+}
+
+/* Star Rating */
+/*----------------------------*/
+.checked {
+  color: orange;
+}
+
+.read-review {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*----------------------------*/
+
+/*Benefits Part*/
+/*----------------------------*/
+.cal-btn {
+  color: #f65a5b !important;
+  background-color: rgba(204, 48, 48, 0.15) !important;
+  border-radius: 10px !important;
+}
+
+.cal-btn:disabled,
+.video-btn:disabled {
+  opacity: 1 !important;
+}
+
+.video-btn {
+  color: #7f3e98 !important;
+  background-color: rgba(127, 62, 152, 0.15) !important;
+  border-radius: 10px !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.card-description {
+  line-height: 2;
+}
+/*----------------------------*/
+
+/*Footer*/
+/*----------------------------*/
+.footer-bar {
+  background-color: #ffeccc;
+}
+
+.footer-text {
+  color: #ffa000;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    text-align: left;
+  }
+}
+
+.footer-btn {
+  width: 120px;
+  height: 50px;
+  border-radius: 50px !important;
+  background-color: #ffd428 !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  color: black !important;
+}
+/*----------------------------*/
