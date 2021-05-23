@@ -20,11 +20,11 @@
     <title>Entri Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-color">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./assets/entri-logo.png" alt="Entri-logo"
-        /></a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid navbar-custom">
+        <a class="navbar-brand" href="#">
+          <img height="70px" src="./assets/entri-logo.png" alt="Entri-logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,10 +37,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse justify-content-end toggle-panel"
           id="navbarNav"
         >
-          <button class="btn nav-btn float-end me-2">SignUp</button>
+          <button class="btn nav-btn float-end me-2 mt-2 mb-2">SignUp</button>
         </div>
       </div>
     </nav>
@@ -109,8 +109,181 @@
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row p-3 footer-bar">
+    <div class="container">
+      <h1 class="fw-bold mb-4">User Reviews</h1>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade custom-style"
+        data-bs-ride="carousel"
+      >
+        <div class="row">
+          <div class="col-1">
+            <button
+              class="btn btn-secondary carousel-btn"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon mt-1"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+          </div>
+          <div class="col-10 mx-auto">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <div class="card card-height">
+                      <div class="card-body">
+                        <p class="card-text card-description">
+                          Entri has provided me the opportunity to learn online
+                          in a smart and smooth way. Thanks again team Entri for
+                          providing the best study materials to prepare for the
+                          exam.
+                        </p>
+                      </div>
+                      <div class="d-flex">
+                        <img
+                          height="50px"
+                          width="80px"
+                          src="./assets/user1.jfif"
+                          class="d-block img-style"
+                          alt="..."
+                        />
+                        <div class="ms-3 user-details">
+                          <p class="user-review">Akash K John</p>
+                          <p class="user-review grayed">Cleared MPPSC 2018</p>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="card card-height">
+                      <div class="card-body">
+                        <p class="card-text card-description">
+                          Earlier I had no idea how the online class quality
+                          when compared to offline coaching. After using the
+                          Entri app i fully impressed the way of teaching and
+                          study material to practice.
+                        </p>
+                      </div>
+                      <div class="d-flex">
+                        <img
+                          height="50px"
+                          width="80px"
+                          src="./assets/user2.jfif"
+                          class="d-block img-style"
+                          alt="..."
+                        />
+                        <div class="ms-3 user-details">
+                          <p class="user-review">Arjun B</p>
+                          <p class="user-review grayed">Cleared MPPSC 2018</p>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12">
+                    <div class="card card-height">
+                      <div class="card-body">
+                        <p class="card-text card-description">
+                          Entri has provided me the opportunity to learn online
+                          in a smart and smooth way. Thanks again team Entri for
+                          providing the best study materials to prepare for the
+                          exam.
+                        </p>
+                      </div>
+                      <div class="d-flex">
+                        <img
+                          height="50px"
+                          width="80px"
+                          src="./assets/user2.jfif"
+                          class="d-block img-style"
+                          alt="..."
+                        />
+                        <div class="ms-3 user-details">
+                          <p class="user-review">Arjun B</p>
+                          <p class="user-review grayed">Cleared MPPSC 2018</p>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12">
+                    <div class="card card-height">
+                      <div class="card-body">
+                        <p class="card-text card-description">
+                          Earlier I had no idea how the online class quality
+                          when compared to offline coaching. After using the
+                          Entri app i fully impressed the way of teaching and
+                          study material to practice.
+                        </p>
+                      </div>
+                      <div class="d-flex">
+                        <img
+                          height="50px"
+                          width="80px"
+                          src="./assets/user1.jfif"
+                          class="d-block img-style"
+                          alt="..."
+                        />
+                        <div class="ms-3 user-details">
+                          <p class="user-review">Akash K John</p>
+                          <p class="user-review grayed">Cleared MPPSC 2018</p>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+            <button
+              class="btn btn-secondary carousel-btn"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon mt-1"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer-bar">
+      <div class="row p-3">
         <div class="col-8 mt-2 footer-text">
           <h3>Enroll this Course with 7 Days Free Validity</h3>
         </div>

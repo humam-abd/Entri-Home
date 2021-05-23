@@ -10,17 +10,27 @@
   color: white !important;
 }
 
-.navbar-color {
+.navbar-custom {
   background-color: white;
-  box-shadow: 0 8px 6px -6px rgb(150, 148, 148);
+  box-shadow: 0 8px 6px -6px rgb(224, 221, 221);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 80px;
 }
+
+.toggle-panel {
+  height: 70px;
+  z-index: 2;
+}
+
 /* ---------------------------- */
 
 /* Body */
 
 .main-content {
   height: 640px;
-  margin-top: 20px !important;
+  margin-top: 80px !important;
   border-radius: 30px;
   /* background-image: linear-gradient(
     to right,
@@ -134,10 +144,56 @@
 }
 /*----------------------------*/
 
+/*Carousel*/
+/*----------------------------*/
+
+.custom-style {
+  margin-bottom: 150px;
+  font-weight: bold;
+}
+
+.card-height {
+  min-height: 235px;
+}
+
+.carousel-btn {
+  width: auto !important;
+  background-color: silver !important;
+  border: 0 !important;
+}
+
+.img-style {
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  position: relative;
+  padding: 8px;
+  bottom: 8px;
+  left: 8px;
+}
+
+.grayed {
+  color: gray;
+  font-weight: lighter;
+}
+
+.user-review {
+  margin: auto;
+}
+
+.user-details {
+  margin-bottom: 10px;
+}
+
+/*----------------------------*/
+
 /*Footer*/
 /*----------------------------*/
 .footer-bar {
   background-color: #ffeccc;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
 }
 
 .footer-text {
