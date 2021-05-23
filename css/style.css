@@ -23,7 +23,6 @@
   height: 70px;
   z-index: 2;
 }
-
 /* ---------------------------- */
 
 /* Body */
@@ -32,14 +31,11 @@
   height: 640px;
   margin-top: 80px !important;
   border-radius: 30px;
-  /* background-image: linear-gradient(
-    to right,
-    rgba(89, 161, 201, 1),
-    rgba(218, 214, 214, 0) 
-  ); */
-  background-color: #59a1c9;
-  color: white;
+  background: #59a1c9;
   background-image: url("../assets/main-content.png");
+  background-image: url("../assets/main-content.png"),
+    linear-gradient(to right, #59a1c9, rgba(5, 4, 4, 0.6));
+  color: white;
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -50,18 +46,11 @@
   .main-content {
     background-size: cover;
     background: #59a1c9;
-    /* background-image: linear-gradient(
-      to top,
-      rgba(89, 161, 201, 1),
-      rgba(218, 214, 214, 0.7)
-    ); */
+    background-image: url("../assets/main-content.png");
+    background-image: url("../assets/main-content.png"),
+      linear-gradient(to top, #59a1c9, rgba(10, 7, 7, 0.568));
   }
 }
-
-/* .content-img {
-  background-size: contain;
-  box-shadow: 0 0 8px 8px white inset;
-} */
 
 .content-text {
   padding: 130px 0px 0px 50px;
@@ -103,7 +92,7 @@
   }
 }
 
-/* Star Rating */
+/* Main Content Star Rating */
 /*----------------------------*/
 .checked {
   color: orange;
@@ -146,7 +135,6 @@
 
 /*Carousel*/
 /*----------------------------*/
-
 .custom-style {
   margin-bottom: 150px;
   font-weight: bold;
@@ -160,6 +148,13 @@
   width: auto !important;
   background-color: silver !important;
   border: 0 !important;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 990px) {
+  .carousel-btn {
+    margin-top: 200px;
+  }
 }
 
 .img-style {
@@ -183,6 +178,12 @@
 
 .user-details {
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .prev-btn-edit {
+    margin-left: -30px;
+  }
 }
 
 /*----------------------------*/
